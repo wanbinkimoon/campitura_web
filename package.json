@@ -1,0 +1,34 @@
+{
+  "name": "campitura_web",
+  "version": "1.0.0",
+  "description": "yet another agency website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d",
+    "dev --watch": "./node_modules/.bin/webpack -d --watch",
+    "build" : "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/wanbinkimoon/campitura_web.git"
+  },
+  "keywords": [
+    "web",
+    "agency",
+    "website"
+  ],
+  "author": "nicola bertelloni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/wanbinkimoon/campitura_web/issues"
+  },
+  "homepage": "https://gitlab.com/wanbinkimoon/campitura_web#README",
+  "dependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.2"
+  }
+}
